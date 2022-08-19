@@ -3,12 +3,11 @@ import 'package:provider/provider.dart';
 
 import './sizer_provider.dart';
 
-class MyChart extends StatelessWidget {
-
+class MyText extends StatelessWidget {
   Widget centredText(double value) {
     return Center(
       child: Text(
-        'This is not an Pie Chart',
+        'Resize this text with the slider',
         style: TextStyle(
           fontSize: value,
         ),

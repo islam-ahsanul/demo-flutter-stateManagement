@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-
-import './my_chart.dart';
+import 'my_text.dart';
 import './my_slider.dart';
 import './sizer_provider.dart';
 
@@ -11,11 +10,10 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Demo Flutter State Management',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -27,23 +25,23 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(                       // <-------- Provider
-      create: (context) => MySizer(),
+    return ChangeNotifierProvider(
+      create: (context) => MySizer(), // <-------- Provider
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Time spent'),
+          title: Text('State Management with Provider'),
         ),
         body: Column(
           children: [
             Expanded(
               child: Padding(
                 padding: const EdgeInsets.all(32),
-                child: MyChart(),                        // <------- chart
+                child: MyText(), // <------- Text
               ),
             ),
             Padding(
               padding: const EdgeInsets.all(32),
-              child: MySlider(),                        // <-------- slider
+              child: MySlider(), // <-------- Slider
             ),
           ],
         ),
