@@ -8,4 +8,5 @@
 Flutter State Management demo with Provider package
 
 
-![smtwp](https://user-images.githubusercontent.com/91280897/186578940-10e92b72-f1a2-4cdc-9685-182e0437d34b.gif)
+<!-- ![smtwp](https://user-images.githubusercontent.com/91280897/186578940-10e92b72-f1a2-4cdc-9685-182e0437d34b.gif) -->
+<img src="https://user-images.githubusercontent.com/91280897/186578940-10e92b72-f1a2-4cdc-9685-182e0437d34b.gif" width="250" height="250"/>
