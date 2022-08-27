@@ -5,7 +5,7 @@
 
 
 
-Flutter State Management demo with Provider package
+Flutter State Management demo with Provider package 
 
 
 <!-- ![smtwp](https://user-images.githubusercontent.com/91280897/186578940-10e92b72-f1a2-4cdc-9685-182e0437d34b.gif) -->
